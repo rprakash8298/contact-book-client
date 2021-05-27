@@ -6,8 +6,8 @@ import Pagination from '../Pagination'
 
 const Contact = ({setCurrentId,page}) => {
      const dispatch = useDispatch()
-    const { contacts } = useSelector((state) => { console.log(state); return state.contact})
-    // console.log(contacts)
+    const { contacts } = useSelector((state) => state.contact)
+    console.log(contacts)
 
     return (
       !contacts?.length ? "No Contact Created" : (
