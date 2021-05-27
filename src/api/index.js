@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: 'https://git.heroku.com/contact-book23.git' })
+const API = axios.create({ baseURL: 'https://contact-book23.herokuapp.com/' })
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('token')) {
     req.headers.Authorization = `Bearer ${localStorage.getItem('token')}`;
