@@ -1,0 +1,24 @@
+.dash_size {
+  height: 80vh;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.adjust_height {
+  margin-top: 5rem;
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}

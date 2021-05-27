@@ -1,0 +1,13 @@
+.btn_design {
+  border-radius: 15px;
+  background-color: rgb(8, 8, 99);
+  color: rgb(243, 235, 235);
+}
+.card {
+  border-radius: 15px;
+  background: rgb(140, 172, 140);
+}
+
+.form-control {
+  background: rgb(248, 248, 248);
+}
